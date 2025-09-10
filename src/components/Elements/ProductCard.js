@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Rating } from "./Rating";
+
 import { useCart } from "../../context";
+import { Rating } from "./Rating";
 
 
 export const ProductCard = ({product}) => {
